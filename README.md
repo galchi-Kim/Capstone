@@ -17,13 +17,9 @@ PaymentHistory.js - 더미 데이터
 
 Login.js
 
-
-
 navigators/
 
 RootStack.js
-
-
 
 main/
 
