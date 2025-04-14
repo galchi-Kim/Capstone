@@ -5,6 +5,7 @@ npm install react-native-image-picker
 ## 기존 CAPSTONE_FRONTEND-MAIN에서 수정/생성으로 변경 된 파일
 screens/
 Mypage.js - 수강생 배경색상 styles.js 보고 #fff000 썼는데 다르게 나오네요..
+
 ChangePassword.js
 MyProfileEdit.js
 ReviewManage.js - 더미 데이터
