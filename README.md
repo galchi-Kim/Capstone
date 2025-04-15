@@ -8,6 +8,10 @@ npm install react-native-image-picker
 ```
 npm install react-native-geolocation-service
 ```
+설치 후 아래 명령어 (Native 연동용)
+```
+npx react-native link react-native-geolocation-service
+```
 
 ## gps 추가로 인한 수정 파일(04/15)
 android/app/src/main/
