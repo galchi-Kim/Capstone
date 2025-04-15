@@ -8,6 +8,7 @@ npm install react-native-image-picker
 ```
 npm install @react-native-community/geolocation
 ```
+```
 npm install react-native-geolocation-service
 ```
 
