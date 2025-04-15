@@ -6,9 +6,6 @@ npm install react-native-image-picker
 
 ## gps 불러오는 라이브러리 설치
 ```
-npm install @react-native-community/geolocation
-```
-```
 npm install react-native-geolocation-service
 ```
 
