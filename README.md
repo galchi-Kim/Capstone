@@ -9,7 +9,14 @@ npm install react-native-image-picker
 npm install @react-native-community/geolocation
 ```
 
-## gps 추가로 인 수정 파일(04/15)
+## gps 추가로 인한 수정 파일(04/15)
+android/app/src/main/
+
+AndroidManifest.xml
+
+screens/
+
+Welcome.js
 
 ## 기존 CAPSTONE_FRONTEND-MAIN에서 수정/생성으로 변경 된 파일(04/14)
 screens/
@@ -30,7 +37,7 @@ navigators/
 
 RootStack.js
 
-main/
+android/app/src/main/
 
 AndroidManifest.xml
 
