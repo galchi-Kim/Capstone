@@ -1,11 +1,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
   package="com.project1">
 
-  <!-- 인터넷 + 이미지 접근 권한 추가 -->
+  <!-- 인터넷 + 이미지 + 위치 접근 권한 -->
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
   <uses-permission android:name="android.permission.CAMERA"/>
+
+  <!-- 위치 권한 (전면 허용 포함) -->
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+  <!-- Android 9 이하에서 위치 정보 설정 다이얼로그 표시용 -->
+  <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
 
   <application
     android:name=".MainApplication"
@@ -15,6 +23,9 @@
     android:allowBackup="true"
     android:theme="@style/AppTheme"
     android:supportsRtl="true">
+
+    <!-- Android 9 이하: org.apache.http.legacy 연동 (일부 디바이스 보완용) -->
+    <uses-library android:name="org.apache.http.legacy" android:required="false"/>
 
     <activity
       android:name=".MainActivity"
