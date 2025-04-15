@@ -34,11 +34,7 @@ main/
 
 AndroidManifest.xml
 
-
-
-
-
-
+---
 
 터미널에 입력하는 코드는 screens와 navigators, components 등 이러한 폴더의 상위폴더에서 실행해야 합니다.
 
