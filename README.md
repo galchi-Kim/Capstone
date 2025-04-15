@@ -1,8 +1,17 @@
 ## 이미지 불러오기 기능 설치
 프론트(React Native CLI)에서 설치 필요
+```
 npm install react-native-image-picker
+```
 
-## 기존 CAPSTONE_FRONTEND-MAIN에서 수정/생성으로 변경 된 파일
+## gps 불러오는 라이브러리 설치
+```
+npm install @react-native-community/geolocation
+```
+
+## gps 추가로 인 수정 파일(04/15)
+
+## 기존 CAPSTONE_FRONTEND-MAIN에서 수정/생성으로 변경 된 파일(04/14)
 screens/
 
 Mypage.js - 수강생 배경색상 styles.js 보고 #fff000 썼는데 다르게 나오네요..
