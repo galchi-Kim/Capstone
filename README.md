@@ -10,6 +10,7 @@ npm install react-native-geolocation-service
 ```
 
 ## gps 추가로 인한 수정 파일(04/15)
+에러 수정 중
 andriod/
 
 settings.gradle
